@@ -11,7 +11,6 @@ try:
     murshark_photo = tk.PhotoImage(file="murshark.png")
     murshark_photo = murshark_photo.subsample(2, 2)
 except:
-    print("murshark.png not found! Using emoji instead.")
     murshark_photo = None
 
 score = 0
